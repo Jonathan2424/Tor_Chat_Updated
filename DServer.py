@@ -148,6 +148,7 @@ def get_broadcast_address(ip):
 def main():
     my_dserver = DServer(2000, '10.51.101.99', random.randint(1000, 9999))
     my_dserver.main_loop()
+    print "yehu"
 
 
 if __name__ == '__main__':
